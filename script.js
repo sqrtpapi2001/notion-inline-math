@@ -40,5 +40,4 @@ window.addEventListener('keydown', function(e) {
     }
 }, true)
 
-// I don't know a good way to trigger rerender automatically yet
-//document.addEventListener('DOMContentLoaded', rerender_all, false);
+window.addEventListener('click', function() {rerender_all()}, true)
